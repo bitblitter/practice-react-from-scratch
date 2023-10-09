@@ -5,7 +5,6 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "vite build --emptyOutDir",
-    "start": "node dist/index.js",
     "dev": "vite --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:eslint": "eslint src",
@@ -15,11 +14,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "@vitejs/plugin-react": "^4.1.0",
     "eslint": "^8.51.0",
     "eslint-plugin-react": "^7.33.2",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "vite": "^4.4.11"
