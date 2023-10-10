@@ -1,8 +1,9 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import App from './components/app';
+import { createRoot } from 'react-dom/client';
+import App from './components/app/app';
 
 const $app = document.querySelector('#app');
 if ($app) {
-    ReactDom.render(<App />, $app);
+    const root = createRoot($app);
+    root.render(<App />);
 }
