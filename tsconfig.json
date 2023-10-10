@@ -110,7 +110,7 @@
       "./src/**/*.ts",
       "./src/**/*.tsx",
       "./*.ts",
-      "*./js"
+      "./*js"
     ],                               /* Specify an array of glob patterns to match against the file names in your project. */
   "plugins": [{
     "name": "typescript-plugin-css-modules"
