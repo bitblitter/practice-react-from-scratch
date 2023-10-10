@@ -1,4 +1,9 @@
 .main {
     background: orange;
     display: flex;
+
+    &__content {
+        background: red;
+        flex: 1;
+    }
 }
